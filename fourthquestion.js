@@ -1,4 +1,4 @@
-  // For sum of two integer
+// For sum of two integer
 
 var a = 4;
 var b = 6;
@@ -22,7 +22,10 @@ console.log(a * b);
 // To print all the value between two integer
 
 var a = 4;
-var b = 6;
+var b = 9;
 
-console.log(a + b);
+for (i = a + 1; i < b; i++)
+  
+console.log(i);
+
 
