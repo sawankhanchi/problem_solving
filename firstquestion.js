@@ -1,7 +1,9 @@
-var n = 5;
-
-// write function code here
-
-for (let i = 0; i < 5; i++) {
+var n =5
+// Defining a function here
+function fname() {
+  for(let i = 0; i < 5; i++) {
     console.log(n);
+  }
 }
+// Calling a function here
+fname()
