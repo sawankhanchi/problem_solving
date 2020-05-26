@@ -8,6 +8,15 @@ function fname() {
 // Calling a function here
 fname()
 
+//or
+
+// Defining a function here
+function fname(a,b) {
+    console.log(a + b);
+  }
+// Calling a function here
+fname(4,9)
+
 
 // For difference of two integer
 var a = 9;
