@@ -15,8 +15,10 @@ fname()
 
 function processDoll(doll)
 {
+  // Base case
 if ( found the piece of chocolate )
   return "Yum yum";
+  // Recursive call to itself
   else if ( there are no more doll )
     return "no chocolate"
   else 
