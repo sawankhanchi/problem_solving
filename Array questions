@@ -1,0 +1,65 @@
+let counter = 0;
+for(counter = 1; counter < 10; counter++)
+{
+    counter++;
+    console.log(counter % 3);
+}
+
+
+
+
+let c;
+let d;
+for (c = 0; c < 5; c++)
+{
+    if (c % 2 === 0)
+    {
+        console.log(c);
+    }
+}
+consle.log("foobar");
+for (d = 8; d >= 0; d--)
+{
+    console.log(d / 2);
+    d--;
+
+
+
+
+    let c;
+    let n = 3;
+    let s = "";
+    a = [1,2,3];
+    for (c = n-1; c >= 0; c--)
+    {
+        s = s + a[c].toString() + " ";
+        
+    }
+       console.log(s);
+
+
+
+
+let E = 40;
+let H = 40;
+let P = 60;
+let C = 65;
+let M = 55;
+
+let total = E + H + P + C + M;
+
+total = total / 5;
+
+if (total < 33) {
+    console.log("you are fail");
+}
+
+if (total > 33) {
+    console.log("you are pass");
+    if (total <= 60) {
+    console.log("and you get 2nd division ");
+    if (total >= 60 && total <= 100) {
+    console.log("and you get 1st division ");
+   }
+ }
+}
