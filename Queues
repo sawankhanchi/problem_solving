@@ -1,4 +1,4 @@
-// Queues.js
+// Queue.js
 
 
 const LinkedList = require("./LinkedList");
