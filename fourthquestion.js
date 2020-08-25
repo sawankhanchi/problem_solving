@@ -47,9 +47,18 @@ var b = 9;
 function fname() {
   for(i = a + 1; i < b; i++) {
     console.log(i);
-  }
+    }
   }
 // Calling a function here
 fname()
 
 
+// For division of two integer
+var a = 9;
+var b = 6;
+// Defining a function here
+function fname() {
+    console.log(a / b);
+    }
+// Calling a function here
+fname()
